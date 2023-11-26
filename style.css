@@ -1,47 +1,39 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
-    
+    background-color: #1F2937;    
 }
 
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
 .header ul{
     display: flex;
+    align-items: center;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    gap: 15px;
 }
 
 .header a{
-    text-decoration:none;
+    text-decoration: none;
     display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    color: #F9FAF8;
 }
 
-.logo{
-    font-size: 24px;
-    color: #F9FAF8;
-    text-decoration:none;
-}
 
 
 
 .first-container{
-
+    display: flex;
+    justify-content: space-around;
 }
 
 .second-container{
     background-color: white ;
+    display: flex;
 }
 
 .third-container{
