@@ -117,14 +117,64 @@ body{
 
 .third-container{
     background-color: #E5E7EB;
-    
+    padding: 1% 15% 5% 15%;
+    font-size: 34px;
+    font-style: italic;
+}
+
+.third-container p{
+    font-size: 18px;
+    color: #1F2937;
+    text-align: right;
+    font-weight: bolder;
+    font-style: normal;
 }
 
 .fourth-container{
     background-color: white ;
+    display: flex;
+    justify-content: center ;
+    height: 300px;
 }
 
 .block {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
     background-color: #3882F6;
+    border-radius: 10px;
+    align-self: center;
+    width: 70%;
+    height: 35%;
+    
 }
 
+.block small{
+    color: #E5E7EB;
+}
+
+.block p{
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.block button{
+    background-color: #3882F6;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    border-style:solid;
+    float: left;
+    margin-top: 5px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    font-size: small;
+    padding: 20px 0;
+}
