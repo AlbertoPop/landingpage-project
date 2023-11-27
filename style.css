@@ -5,9 +5,12 @@ body{
 
 }
 
+/* Header part */
+
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 15%;
 
 }
 
@@ -24,7 +27,7 @@ body{
 }
 
 
-
+/* Hero part */
 
 .first-container{
     display: flex;
@@ -32,26 +35,48 @@ body{
 }
 
 
-
-.content {
+.hero {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-left: 15%;
     margin-right: 15%;
+    height: 400px;
+    width: 85%;
 }
 
-.content .awesome{
+.hero .text-btn{
+    width: 450px;
+    gap: 50px;
+}
+
+.hero .awesome{
     color: #F9FAF8;
     font-weight: bolder;
     font-size: 48px;
+    margin: 0;
 }
 
-.content .subtext{
+.hero .subtext{
     color: #E5E7EB;
     font-size: 18px;
+    margin: 0;
+}
+
+.hero button{
+    background-color: #3882F6;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding: 8px 30px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    float: left;
 }
 
 
 
+/* Images part */
 
 .second-container{
     background-color: white ;
